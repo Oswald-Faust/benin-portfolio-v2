@@ -105,7 +105,7 @@ export const usersDev:Card[] = [
   { name: "MEDEHOU Elikem",
     link: "https://www.linkedin.com/in/juniormedehou/",
     linkSlug:"elikemmedehou.com",
-    tags: [Category.Mobile, Category.Backend,Category.DevOps],
+    tags: [Category.Frontend, Category.Backend,Category.DevOps,Category.Mobile],
     technology:[BackendTechnology.NodeJS_Express,FrontendTechnology.NextJS,BackendTechnology.NodeJS_Express,MobileTechnology.Flutter, DevOpsTechnology.Docker],
     description:"Flutter and Backend Developer",
     socials: {
@@ -114,6 +114,19 @@ export const usersDev:Card[] = [
       linkedin: "juniormedehou",
     },
   },
+  { name: "Faust Oswald",
+  link: "https://www.linkedin.com/in/faust-oswald/",
+  linkSlug:"faustoswald.webflow.io",
+  tags: [Category.Mobile, Category.Frontend, Category.DevOps,],
+  technology:[FrontendTechnology.NextJS,MobileTechnology.Flutter,FrontendTechnology.CSS,FrontendTechnology.TailwindCSS,FrontendTechnology.VueJS,FrontendTechnology.NuxtJS, DesignTechnology.Figma, FrontendTechnology.HTML,
+  ],
+  description:"UI Designer (Webflow, Framer, Figma) & Frontend Developer (NextJS + VueJS) ",
+  socials: {
+    twitter: "OswaldFaust2",
+    github: "Oswald-Faust",
+    linkedin: "faust-oswald/",
+  },
+},
 
   { name: "DOSSEH Shalom",
     link: "https://www.linkedin.com/in/shalom-dosseh-4a484a262/",
